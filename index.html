@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-primary block py-6">Sandika</a>
+                    <a href="#home" class="logo font-bold text-primary block py-6 text-2xl">Sandika</a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -30,7 +30,7 @@
                                 <a href="#about" class="text-base py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
                             </li>
                             <li class="group">
-                                <a href="#portofolio" class="text-base py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                                <a href="#portfolio" class="text-base py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
                             </li>
                             <li class="group">
                                 <a href="#clients" class="text-base py-2 mx-8 flex group-hover:text-primary">Clients</a>
@@ -50,7 +50,7 @@
     <!-- header section -->
 
     <!-- Hero Section -->
-     <section id="home" class="pt-36">
+     <section id="home" class="pt-36 bg-white">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
@@ -58,13 +58,13 @@
                     <h2 class="font-medium text-lg mb-3 lg:text-xl">Web Developer</h2>
                     <p class="font-medium mb-10 leading-relaxed lg:text-lg">fresh graduate & well educated human insyaallah</p>
 
-                    <a href="#" class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-full hover:shadow-lg hover:bg-secondary transition duration-300 ease-in-out">Hubungi Saya</a>
+                    <a href="#contact" class="z-40 relative text-base font-semibold bg-primary text-white py-3 px-8 rounded-full hover:shadow-lg hover:bg-secondary transition duration-300 ease-in-out">Hubungi Saya</a>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="mt-10 relative lg:mt-9 lg:right-0">
-                        <img src="./dist/img/profil.png" alt="" width="450" class="max-w-full mx-auto">
-                        <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 -z-10">
-                            <svg width="450" height="450" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <img src="./dist/img/profil.png" alt="" width="450" class="relative max-w-full mx-auto z-[99]">
+                        <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 z-10">
+                            <svg width="550" height="550" class=" max-w-[500px]" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#134B70" d="M55.9,-49.5C70.9,-41,80.2,-20.5,79.2,-1C78.2,18.5,66.8,36.9,51.9,51.8C36.9,66.8,18.5,78.1,0.6,77.5C-17.3,77,-34.7,64.5,-46.3,49.6C-58,34.7,-64.1,17.3,-67.1,-3C-70.1,-23.4,-70.1,-46.7,-58.4,-55.2C-46.7,-63.7,-23.4,-57.2,-1.4,-55.8C20.5,-54.3,41,-57.9,55.9,-49.5Z" transform="translate(100 100)" />
                           </svg>
                         </span>
@@ -76,7 +76,7 @@
     <!-- Hero Section -->
 
     <!-- about section -->
-     <section id="about" class="pt-36 pb-32">
+     <section id="about" class="pt-36 pb-32 bg-white">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
@@ -260,17 +260,17 @@
             </div>
 
             <form>
-                <div class="w-full lg:w-2/3 lg:mx-auto">
+                <div class="w-full lg:w-1/2 lg:mx-auto">
                     <div class="w-full px-4 mb-8  ">
-                        <label for="name" class="text-base font-bold">Nama</label>
+                        <label for="name" class="text-base font-bold mb-2 block">Nama</label>
                         <input type="text" name="" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
                     </div>
                     <div class="w-full px-4 mb-8  ">
-                        <label for="email" class="text-base font-bold">Email</label>
+                        <label for="email" class="text-base font-bold mb-2 block">Email</label>
                         <input type="email" name="" id="email" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
                     </div>
                     <div class="w-full px-4 mb-8 ">
-                        <label for="pesan" class="text-base font-bold">Pesan</label>
+                        <label for="pesan" class="text-base font-bold mb-2 block">Pesan</label>
                         <textarea type="text" name="" id="pesan" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
                     </div>
                     <div class="w-full px-4 ">
